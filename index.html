@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.avif" alt="">
+            <h1>Welcome to Car Rental Service! </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html">Login</a></li> <!-- Link to login page -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="banner" style="background-image: url('backgimg.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            
+            <h2>Find the Perfect Rental Car for Your Journey!!!</h2>
+            <p>Explore our wide range of vehicles for rent at affordable prices.</p>
+            <a href="availablecars.html" class="btn">Browse Cars</a> <!-- Link to available cars page -->
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We do everything for you to drive with maximum comfort!</p>
+                <p>Our company has been operating  for over 10 years. You can rent a car for any purpose, from a business trip to conquering roads with difficult surfaces. 
+                
+                 We have several pick-up locations so that you can take and leave the rented car in any convenient place.</p>
+        </div>
+    </section>
+    
+    
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <div class="circle" style="background-image: url('img1.png');"></div>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is available around the clock to assist you.</p>
+                </div>
+                <div class="service">
+                    <div class="circle" style="background-image: url('img2.webp');"></div>
+                    <h3>Wide Selection</h3>
+                    <p>Choose from a variety of vehicles to suit your needs.</p>
+                </div>
+                <div class="service">
+                    <div class="circle" style="background-image: url('img3.webp');"></div>
+                    <h3>Affordable Prices</h3>
+                    <p>Enjoy competitive rental rates with no hidden fees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Contact us using the form below.</p>
+            <form action="contact_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Rental. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
